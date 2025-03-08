@@ -40,7 +40,7 @@ jobs:
       run: ls -la
   
     - name: Build with Gradle
-      run: /testProject/gradlew build
+      run: ./gradlew build
         
    
 
